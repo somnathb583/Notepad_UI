@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5dc;
+    color: black;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content :space-between;
+    padding: 10px 10px;
+}
+.icon {
+    display: flex;
+}
+.menus {
+    display: flex;
+    padding: 0px 5px;
+}
+.buttons {
+    display: flex;
+}
+
+.buttons p {
+    padding: 20px 10px ;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-icon {
+    height: 50px;
+    width: 50px;
+    padding: 5px 5px;
+}
+
+.icon-header {
+    padding: 20px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.menus p {
+    padding: 20px 20px ;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menus, .buttons p:hover {
+    cursor: pointer;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 20px ;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    height: 60vh;
+    width: 70vw;
+    background-color: aqua;
+    position: relative;
+    left: 16vw;
+    top: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-box-left {
+    width: 40%;
+    height:80%;
+    background-color: blue;
+}
+
+.content-box-right {
+    width: 40%;
+    height:80%;
+    background-color: red;
+}
